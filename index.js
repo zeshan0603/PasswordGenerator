@@ -7,7 +7,7 @@ let inputEl = document.getElementById("input")
 
 
 
-let passwordLength = 12;
+let passwordLength = 0;
 
 
 
@@ -31,6 +31,8 @@ function renderPasswords() {
     const passwordTwo = generatePassword()
     passwordEl1.textContent = passwordOne
     passwordEl2.textContent = passwordTwo
+
+    passwordLength = inputEl.value;
 }
 
 

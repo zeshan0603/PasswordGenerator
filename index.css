@@ -1,7 +1,9 @@
 body {
     margin: 0;
+    font-family: Arial;
 }
-.container{
+
+.container {
     background-color: #1F2937;
     max-width: 300px;
     padding: 15px;
@@ -11,33 +13,54 @@ body {
 
 .container h1 {
     color: white;
-    font-family: Helvetica; 
+    font-family: Helvetica;
 }
-h1 p{
+
+h1 p {
     color: #4ADF86;
     margin-top: 7px;
 }
-.p{
+
+.p {
     color: white;
     margin-bottom: 40px;
 }
 
-button{
+button {
     color: white;
     background-color: #4ADF86;
     border-radius: 5px;
     padding: 8px;
-    border:none;
+    border: none;
+    margin-bottom: 20px;
     cursor: pointer;
     transition: color 0.15s, background-color 0.15s;
     border: 2px solid white;
 }
 
-.div-p{
+/* 
+.input-div {
     margin-top: 20px;
 }
 
-.password-el{
+#input {
+
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 4px;
+}
+
+label {
+    color: #4ADF86;
+    font-weight: bold;
+}
+
+.div-p {
+    margin-top: 20px;
+} */
+
+.password-el {
     background-color: #374F71;
     width: 120px;
     height: 15px;
@@ -46,13 +69,13 @@ button{
     padding-top: 8px;
     padding-left: 5px;
     margin: 0;
-    margin-right: 20px; 
+    margin-right: 20px;
     border-radius: 3px;
     display: inline-block;
     color: #4ADF86;
 }
 
-button:hover{
+button:hover {
     color: #4ADF86;
     background-color: white;
     border: 2px solid #4ADF86;

@@ -1,10 +1,11 @@
 body {
     margin: 0;
     font-family: Arial;
+     background-color: #1F2937;
 }
 
 .container {
-    background-color: #1F2937;
+   
     max-width: 300px;
     padding: 15px;
     margin: 0 auto;

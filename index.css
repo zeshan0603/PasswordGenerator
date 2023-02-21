@@ -1,11 +1,11 @@
 body {
     margin: 0;
     font-family: Arial;
-     background-color: #1F2937;
+    background-color: #1F2937;
 }
 
 .container {
-   
+
     max-width: 300px;
     padding: 15px;
     margin: 0 auto;
@@ -35,13 +35,21 @@ button {
     border: none;
     margin-bottom: 20px;
     cursor: pointer;
-    transition: color 0.15s, background-color 0.15s;
+    transition: all 0.15s;
     border: 2px solid white;
 }
 
 
 .input-div {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-div label {
+    font-size: 13px;
+    margin-right: 5px;
 }
 
 #input {
@@ -59,6 +67,7 @@ label {
 
 .div-p {
     margin-top: 20px;
+    display: flex;
 }
 
 .password-el {
@@ -68,7 +77,8 @@ label {
     /* padding: 12px; */
     padding-bottom: 10px;
     padding-top: 8px;
-    padding-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0;
     margin-right: 20px;
     border-radius: 3px;
@@ -80,4 +90,10 @@ button:hover {
     color: #4ADF86;
     background-color: white;
     border: 2px solid #4ADF86;
+    transform: scale(1.05);
+}
+
+button:active {
+    opacity: 0.7;
+
 }

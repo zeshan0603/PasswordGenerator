@@ -1,21 +1,4 @@
-# co8a0450f8a34bbf9a55b2c51
-
-Quick start:
-
-```
-$ npm install
-$ npm start
-````
-
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+This is a JS Project which allows user to generate two passwords. This was completely built from scratch and the idea was taken from a tutorial. 
+It was a solo project and not a code along. 
+The extra feature here is that the user can input the length of the password.
+It can be used in multiple websites with changing the design as per the website requirements keeping the JS functionality part same. 

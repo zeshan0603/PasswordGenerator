@@ -17,6 +17,7 @@ function randomChar() {
 }
 
 function generatePassword() {
+    passwordLength = inputEl.value;
     let password = ""
     for (let i = 0; i < passwordLength; i++) {
         password += randomChar()
@@ -32,7 +33,7 @@ function renderPasswords() {
     passwordEl1.textContent = passwordOne
     passwordEl2.textContent = passwordTwo
 
-    passwordLength = inputEl.value;
+    
 }
 
 
